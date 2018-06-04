@@ -11,7 +11,7 @@ var js = {};
       loadScript(arguments[i]);
   }
 
-  function loadScript(script, ) {
+  function loadScript(script) {
     var scriptElem = document.createElement('script');
     scriptElem.src = script;
     document.body.appendChild(scriptElem);
