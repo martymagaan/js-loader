@@ -1,4 +1,4 @@
-var js = {};
+let js = {};
 
 (function() {
 
@@ -12,7 +12,7 @@ var js = {};
   }
 
   function loadScript(script) {
-    var scriptElem = document.createElement('script');
+    let scriptElem = document.createElement('script');
     scriptElem.src = script;
     document.body.appendChild(scriptElem);
     scriptElem.onload = callOnLoad;
